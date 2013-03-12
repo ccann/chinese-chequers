@@ -1,6 +1,7 @@
 # README for chequers.lisp
 
 Author: ccann
+Date: spring 2010
 
 OBJECT:
 
