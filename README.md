@@ -1,4 +1,4 @@
-README for chequers.lisp
+# README for chequers.lisp
 
 Author: ccann
 
@@ -22,11 +22,11 @@ checkers board consists of offset rows, it's difficult to tell where exactly the
 are located. For convenience the program prints the current locations of the player's
 marbles and the legal moves (x1 y1 x2 y2) possible for that player.
 
-MOVE takes the following inputs: GAME (gm), (DIRECTION) (e.g. NE), X1, Y1.
- e.g. (move gm NE 13 6)  ;;  move the marble at (13,6) northeast
+  * MOVE takes the following inputs: GAME (gm), (DIRECTION) (e.g. NE), X1, Y1.
+  * e.g. (move gm NE 13 6)  ;;  move the marble at (13,6) northeast
 
-HARD-MOVE takes GAME (gm), X1 Y1 X2 Y2
- e.g. (hard-move gm 13 6 12 6) ;; move the marble at (13,6) to (12,6)
+  * HARD-MOVE takes GAME (gm), X1 Y1 X2 Y2
+  * e.g. (hard-move gm 13 6 12 6) ;; move the marble at (13,6) to (12,6)
 
 4. For the AI's move, use (COMP-DO-MOVE! gm T) or (COMP-DO-MOVE! gm nil). The bool at the
 end denotes a randomized move list.
