@@ -1,16 +1,15 @@
-# README for chequers.lisp
+# chinese-chequers (spring 2010)
 
-Author: ccann
+An implementation of chinese chequers with CLI and aritificially intelligent opponent (minimax with alpha-beta pruning).
 
-Date: spring 2010
 
-OBJECT:
+## Object of the game
 
 Move all your marbles into the opponent's home zone. Legal moves are single space hops, or
 consecutive jumps over marbles. See http://en.wikipedia.org/wiki/Chinese_checkers for
 complete rules.
 
-HOW-TO-USE:
+## How to play
 
 In order to play a game follow these steps:
 
