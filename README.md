@@ -1,6 +1,6 @@
-# chinese-chequers (spring 2010)
+# Chinese Chequers
 
-An implementation of chinese chequers with CLI and aritificially intelligent opponent (minimax with alpha-beta pruning).
+An implementation of chinese chequers with CLI and aritificially intelligent opponent (minimax with alpha-beta pruning). Originally written spring 2010 as a term project for AI.
 
 
 ## Object of the game
